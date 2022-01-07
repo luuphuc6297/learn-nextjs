@@ -14,7 +14,7 @@ export function StudentDetail({ studentId }: StudentDetailProps) {
     })
 
     function handleMutateClick() {
-        mutate({ name: 'easy frontend' }, true)
+        mutate({ name: 'Easy frontend' }, true)
     }
 
     return (
